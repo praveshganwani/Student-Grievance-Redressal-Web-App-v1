@@ -22,3 +22,8 @@ The application is a component of a larger system which is dependent on the othe
 - A REST API service hosted on a Linux server, which has specific routes to interact with the database. All operations of the system that require data need to access this component. The SGRP website is dependent on this component for fetching the data from the database. These API routes are responsible for SPAM detection, RED FLAG detection in all the grievances pushed through the service.
 - A mobile app for the students (3rd type of users to the system) which allows the students to lodge a grievance, track the progress of their grievance. This component interacts with the API service to make changes to the database.
 - The SGRP website for the committees and the administrators to access these grievances -and work on it. This component again has to interact with the API service and make changes to the database.
+
+
+## Complaint Life Cycle
+
+<img src="https://user-images.githubusercontent.com/59963061/125194990-4020b800-e271-11eb-9d5b-0c13281bc437.png" width="90%"></img> 

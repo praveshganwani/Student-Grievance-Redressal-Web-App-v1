@@ -23,7 +23,15 @@ The application is a component of a larger system which is dependent on the othe
 - A mobile app for the students (3rd type of users to the system) which allows the students to lodge a grievance, track the progress of their grievance. This component interacts with the API service to make changes to the database.
 - The SGRP website for the committees and the administrators to access these grievances -and work on it. This component again has to interact with the API service and make changes to the database.
 
+## Hierarchy of Users
+
+<img src="https://user-images.githubusercontent.com/59963061/125195035-7cecaf00-e271-11eb-82e1-0bdda7241f6d.png" width="90%"></img>
 
 ## Complaint Life Cycle
 
-<img src="https://user-images.githubusercontent.com/59963061/125194990-4020b800-e271-11eb-9d5b-0c13281bc437.png" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/59963061/125194990-4020b800-e271-11eb-9d5b-0c13281bc437.png" width="90%"></img>
+
+## UI/UX
+
+<img src="https://user-images.githubusercontent.com/59963061/125195039-8118cc80-e271-11eb-9c48-1b8485eb43df.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/59963061/125195042-8413bd00-e271-11eb-82e7-8a723eda94be.png" width="45%"></img>
+

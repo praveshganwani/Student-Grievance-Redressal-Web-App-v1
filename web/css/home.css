@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jan, 2020, 7:55:15 PM
+    Author     : Pravesh Ganwani
+*/
+
+.container-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 200px;
+  border-radius: 15px;
+  transition: .5s;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box--pink {
+  background: linear-gradient(to right, #FF7A9B 0%, #FF0040 100%)!important;
+}
+.box--orange {
+  background: linear-gradient(to right, #FBB54E 0%, #FF9900 100%)!important;
+}
+.box--green {
+  background: linear-gradient(to right, #76EED6 0%, #00D5AA 100%)!important;
+}
+.box .profile {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: white!important;
+  border-radius: 50%;
+}
+.box .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.box .content h1 {
+  font-weight: 600;
+  font-size: 28px;
+  color: white!important;
+  margin: 10px;
+}
+.box .content p {
+  color: white!important;
+  font-size: 15px;
+}
+.box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .container-boxes {
+    flex-direction: row!important;
+  }
+  .container-boxes .box {
+    margin: 5px;
+    padding: 5px;
+  }
+  .container-boxes .box .profile {
+    margin-top: 10px;
+    width: 60px;
+    height: 120px;
+  }
+  .container-boxes .box .content {
+    text-align: center;
+  }
+  .container-boxes .box .content h1 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .container-boxes .box .content p {
+    font-size: 14px;
+  }
+}
+

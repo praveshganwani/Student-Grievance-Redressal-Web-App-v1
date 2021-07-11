@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Loading</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/loading.css" rel="stylesheet" type="text/css"/>  
+    </head>
+    <body class="loading">
+        
+        <script>
+            var body = document.getElementsByTagName('body')[0];
+            var removeLoading = function() {
+                setTimeout(function() {
+                    body.className = body.className.replace(/loading/, 'actual');
+                }, 30000);
+            };
+            removeLoading();
+            window.location = "http://localhost:8080/StudentGrievanceRedressalWebApp/images/Report.pdf";
+        </script>
+    </body>
+</html>
